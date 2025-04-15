@@ -36,6 +36,7 @@ h2,
 h3 {
     font-family: var(--HEADINGs);
     color: var(--FONT-COLOR);
+    text-align: center;
     
 }
 
@@ -72,3 +73,36 @@ a:focus-visible {
 a:active {
     color: var(--LINK-ACTIVE);
 }
+ul{
+    display: flex;
+    gap: 10px;
+}
+ nav {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+    background-color: green;
+ }
+ span {
+    text-align: center;
+ }
+
+ input {
+    display: flex;
+    align-items: center;
+ }
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }

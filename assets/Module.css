@@ -17,5 +17,28 @@
 	height: 50vh;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	flex-direction: column;
+}
+
+.liste-taches__container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 600px;
+	height: 100px;
+	border:1px black solid;
+}
+.taches-delete {
+ background-color: red;
+}
+.taches-modify{
+background-color: blue;
+}
+button {
+
+}
+
+#listeTaches {
+	display: flex;
+	flex-direction: column;
 }
