@@ -34,6 +34,9 @@
 .taches-modify{
 background-color: blue;
 }
+.btn-save {
+	background-color: green;
+}
 button {
 
 }
@@ -41,4 +44,11 @@ button {
 #listeTaches {
 	display: flex;
 	flex-direction: column;
+}
+
+.titre-tache{
+	
+}
+.input-title {
+	width: 50%;
 }
